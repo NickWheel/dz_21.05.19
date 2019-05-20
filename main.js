@@ -40,17 +40,27 @@
 
 
 
-value = +prompt('vvedi chislo kotoroe hochew voznesti do nebes');
-sum = 1;
-let fact_beginning=1
 
-while (fact_beginning <= value) {
-    sum *= fact_beginning;
-    fact_beginning++
-    console.log(sum);
+
+// value = +prompt('vvedi chislo kotoroe hochew voznesti do nebes');
+// sum = 1;
+// let fact_beginning=1
+
+// while (fact_beginning <= value) {
+//     sum *= fact_beginning;
+//     fact_beginning++
+//     console.log(sum);
+// }
+
+
+
+
+let start = +prompt('Enter yor number u wanna make RLY BIG: ');
+let iterations_quantity = +prompt('Skoka raz???'); 
+let value = +prompt('a na soka STRONG you want to make it big?? Enter a number');
+
+for (let i = 0; i <= iterations_quantity; i++) {
+    start += value;
+    console.log(start);
 }
-
-
-
-
 // -----------------------------------------------------------------------------
